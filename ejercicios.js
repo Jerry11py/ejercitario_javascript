@@ -70,7 +70,7 @@ function checkUserNameType() {
 // 11. Asegúrate de que `dogId` es una cadena de texto y luego imprime el tipo de dato en consola.
 function checkDogIdIsString() {
     const dogId = "dogId";
-    console.log(typeof dogId === "string");
+    console.log(typeof dogId );
 }
 
 // console.log()
@@ -88,7 +88,7 @@ function logAge() {
 // 14. Muestra el mensaje 'La versión de JavaScript es' seguido de la variable `version` con el valor 2024 usando `console.log()`.
 function logVersion() {
     const version = 2024; // Cambié a un número
-    console.log(`La versión de JavaScript es ${version}`);
+    console.log(`La version de JavaScript es`,version);
 }
 
 // Exportar todas las funciones para poder usarlas en las pruebas
